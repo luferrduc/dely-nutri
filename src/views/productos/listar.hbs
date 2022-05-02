@@ -1,0 +1,24 @@
+<div class="container p-4">
+  <div class="row">
+      {{#each productos}}
+        <div class="col-md-4" style="padding-bottom: 20px;">
+            <div class="card text-center" style="background: none;">
+                <div class="card-header" style="background-color: rgb(255, 174, 0);">
+                    <h6 class="card-title">{{nombre_producto}}</h6>
+                </div> 
+                <div class="card-body" style="background-color: rgb(230, 192, 111);">
+                    <p>Calorias: {{calorias}}</p>
+                    <p>Tienda: {{nombre_marca}}</p>
+                    <script src="https://www.mercadopago.cl/integrations/v1/web-payment-checkout.js"
+                    data-preference-id="256277653-6c6af4c7-acf0-45d9-b93d-d5f1026ca98f" data-source="button">
+                    </script>
+
+
+                    <button class="btn btn-success"> Precio: ${{precio}} </button>
+                    <p></p>
+                </div> 
+            </div> 
+        </div>
+      {{/each}}
+  </div>
+</div>

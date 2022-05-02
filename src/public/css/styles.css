@@ -1,0 +1,70 @@
+body{
+    background-image: url('../img/b1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Inconsolata', monospace;
+}
+
+.formheader{
+    background-color: rgba(0, 87, 14, 0.925);
+    text-align: center;
+    padding-bottom: 10px;
+    color: #ffff;
+}
+
+.formregistro{
+    background-color: rgba(8, 255, 49, 0.7);
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.paddingpeola{
+    padding-bottom: 10px;
+}
+
+
+.btnregistrarse{
+    background: rgba(3, 131, 190, 0.87);
+    color: rgb(0, 0, 0);
+    word-wrap: break-word;
+}
+
+button.btnregistrarse:hover{
+    background: rgba(1, 76, 110, 0.87);
+    color: white;
+}
+
+
+.navbar-color{
+    background: rgba(255, 153, 0, 1);
+}
+nav a.nav-link{
+    color: white;
+    padding: 8px;
+    font-weight: bold;
+}
+nav ul li a{
+    padding: 0.5rem;
+}
+
+.navbar-color .navbar-toggler {
+    color: rgba(0, 0, 0, 0.5);
+    border-color: rgba(0, 0, 0, 0.1);
+}
+.navbar-color .navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* nav{
+    height: 4rem;
+} */
+nav a.marca {
+    padding-left: 5rem;
+}
+nav ul {
+    padding-right: 3rem;
+}
+/* .navbar-detalles{
+    box-shadow: 0.1rem 0.5rem rgba(0, 0, 0, 0.3);;
+} */
